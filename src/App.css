@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: gray;
+  height: 100vh;
 }
 
 .App-logo {
@@ -61,9 +62,9 @@
 
 .dog-card {
   padding-bottom: 0;
-  height: fit-content;
   margin: 15px;
   box-shadow: 5px 5px 10px;
+  background-color: white;
 }
 
 .dog-card-img:hover {
@@ -71,4 +72,28 @@
   transform: scale(1.1);
   transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
   border: 5pt groove black;
+}
+
+.dog-card-img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 350px;
+  height: auto;
+}
+
+.homepage-div {
+  background-image: url('https://i.ytimg.com/vi/erEfPcA7M7E/maxresdefault.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+
+body, html{
+  padding: 0 !important; 
+  margin: 0 !important;
+  background:gray
 }
