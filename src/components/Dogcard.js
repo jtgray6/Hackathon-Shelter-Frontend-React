@@ -7,7 +7,7 @@ export default function Dogcard({dog}) {
         <div>
             <Card style={{width: '18rem'}}>
                 <Card.Header>{dog.name}</Card.Header>
-                <Card.Img variant='top' src={dog.image_url} />
+                <Card.Img variant='top' src={dog.image_url} height='500' width='500' />
                 <Card.Body>
                     <Card.Text>{dog.description}</Card.Text>
                 </Card.Body>

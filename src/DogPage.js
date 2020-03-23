@@ -23,7 +23,7 @@ export default class DogPage extends Component {
 
     render() {
         return (
-            <div style={{display: "flex"}}>
+            <div className='Dog-Page-Container'>
                 {this.showCards()}
             </div>
         )

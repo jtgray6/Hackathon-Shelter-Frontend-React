@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.Dog-Page-Container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-image {
+  max-width: 100%;
+  height: auto;
+}
