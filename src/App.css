@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: gray;
 }
 
 .App-logo {
@@ -39,10 +40,35 @@
 
 .Dog-Page-Container {
   display: flex;
-  justify-content: space-evenly;
+  padding: 10px;
+  flex-wrap: wrap;
 }
 
-.card-image {
-  max-width: 100%;
-  height: auto;
+.navbar-link {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+}
+
+.header-logo {
+  padding: 10px;
+}
+
+.dog-card {
+  padding-bottom: 0;
+  height: fit-content;
+  margin: 15px;
+  box-shadow: 5px 5px 10px;
+}
+
+.dog-card-img:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  border: 5pt groove black;
 }
