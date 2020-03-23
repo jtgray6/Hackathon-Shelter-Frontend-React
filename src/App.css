@@ -2,6 +2,7 @@
   text-align: center;
   background-color: gray;
   height: 100vh;
+  font-family: 'Prompt', sans-serif;
 }
 
 .App-logo {
@@ -68,13 +69,14 @@
 }
 
 .dog-card-img:hover {
-  opacity: 0.8;
+  filter: grayscale(0%);
   transform: scale(1.1);
   transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
   border: 5pt groove black;
 }
 
 .dog-card-img {
+  filter: grayscale(60%);
   object-fit: cover;
   width: 100%;
   max-height: 350px;
